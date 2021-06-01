@@ -1,0 +1,47 @@
+@import "../../app.scss";
+
+$titleFontSize: 1rem;
+
+.panel {
+    padding: 21px;
+    margin-bottom: 21px;
+    background-color: white;
+
+    .row-title {
+        padding-top: 21px;
+    }
+    .row-content {
+        padding: 21px 0;
+    }
+}
+
+.at-row {
+    box-sizing: border-box;
+    .head {
+        display: inline-block;
+        height: $titleFontSize;
+        background-color: $color-brand;
+        width: 6px;
+        margin: 0 20px 0 0;
+        position: relative;
+        bottom: -5px;
+    }
+
+    .title {
+        display: inline-block;
+        font-size: $titleFontSize;
+        font-weight: bold;
+    }
+
+    .extra {
+        font-size: $titleFontSize * 0.8;
+        color: #91908e;
+        .at-icon {
+            font-size: $titleFontSize;
+            position: relative;
+            bottom: 4px;
+        }
+        margin-right: 20px;
+        text-align: right;
+    }
+}

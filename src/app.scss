@@ -1,0 +1,30 @@
+@import "~taro-ui/dist/style/index.scss";
+
+/* Custom Theme */
+$color-brand: #ffc701;
+$color-brand-light: #ffd541;
+$color-brand-dark: #cc9f01;
+
+page {
+    background-color: #f0f0f0;
+    margin-bottom: 100px;
+}
+
+.h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    color:#333;
+}
+
+.h3 {
+    font-size: .9rem;
+    font-weight: bold;
+    color:#333;
+}
+
+
+.h4 {
+    font-size: .75rem;
+    font-weight: bold;
+    color:#333;
+}
