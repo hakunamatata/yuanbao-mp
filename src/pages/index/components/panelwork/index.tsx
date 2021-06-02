@@ -45,7 +45,7 @@ const PanelWork: FC<PanelWorkPropsType> = props => {
     const { value } = props;
     const [state, setState] = useState<PanelWorkStateType>({
         profile: {
-            name: "马波",
+            name: "张三",
             avatar: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fj2.s2.dpfile.com%2Fpc%2Fb944706bea889f77b674de1246e9a21c%28700x700%29%2Fthumb.jpg&refer=http%3A%2F%2Fj2.s2.dpfile.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1625160304&t=962b49a621983a3e4c317a4cdea62ef8",
             depname: '施工A组',
             orgname: '江苏筑美劳务公司',

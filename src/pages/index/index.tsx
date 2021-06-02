@@ -34,7 +34,7 @@ export default () =>
     <View>
 
       <PanelWork />
-      <PanelBroadcast />
+      <PanelBroadcast message="您已连续工作4小时56分58秒，请注意休息，避免过度疲劳" />
       <PanelAds />
       <PanelSafety />
       <PanelWeather />

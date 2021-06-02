@@ -8,13 +8,15 @@ interface PanelPropsType {
     title?: React.ReactNode | string
     extra?: React.ReactNode | string
     icon?: string | boolean
+    transparent?: any
     children?: React.ReactNode
 }
 
 const Panel: FC<PanelPropsType> = props => {
 
-    const { labelColor, title, extra, icon, children } = props;
-    return <View className="panel">
+    const { labelColor, title, extra, icon, children, transparent } = props;
+    return <View className="panel"
+        style={{ backgroundColor: transparent ? 'transparent' : 'auto' }}>
         {title
             ? <View className='at-row row-title'>
                 <View className='at-col'>
